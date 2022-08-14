@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo{
+    width: 9rem;
+    max-width: fit-content;
+}
+.navbar {
+    background-color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: .85rem;
+}
+header{
+    border-bottom-width: 4px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+}
+.searchicon{
+    height: 1.5rem;
+    cursor: pointer;
+        
+}
+
+a{
+    text-decoration: none;
+}
+.btn2{
+    margin-top: 2rem;
+}
+.bg-img{
+    background-size: cover;
+}
+
+
+.footer a{
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+.footer{
+    border-bottom-width: 2px;
+    border-bottom-color:red;
+    border-bottom-style: solid;
+}
+.footericon{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.footerl{
+  font-size: .8rem;
+  
+  
+}
+.footerl a{
+    color: white;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    
+}
+.headertext h2,h4{
+    font-family: 'Space Grotesk', sans-serif;
+    
+}
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: black;
+    border-width: .2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background: transparent;
+    border-radius: 0%;
+}
+
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.btn-primary1 {
+    color: white;
+    background-color: #dd0031;
+    border-color:#dd0031;
+    border-width: .2rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btn21{
+    margin-top: 2rem;
+    background: transparent;
+    border-color: white;
+    color: white;
+}
+.btn21:hover{
+    margin-top: 2rem;
+    background-color: hsl(347, 48%, 45%);
+    border-color: rgb(0, 0, 0);
+    color: white;
+}
+.form-check-label{
+    font-size: 70%;
+}
